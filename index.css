@@ -1,0 +1,373 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border box ne content container chya aat mdech rahnar */
+}
+
+
+header {
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1 0 200px;
+}
+
+nav>ul>li {
+
+    list-style: none;
+    justify-content: center;
+    padding: 30px 30px;
+}
+
+
+nav>ul>li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+nav>ul>li a:hover {
+    background-color: black;
+    color: azure;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+
+.content {
+    background-image: url(images/yog.jpg);
+    height: 610px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.content button {
+    margin: 20px;
+    padding: 15px 50px;
+    border-style: groove;
+    background-color: rgb(228, 114, 21);
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+}
+
+.info {
+    /* height:500px; danger */
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: center;
+
+}
+
+.info section {
+    height: 450px;
+    flex: 1 0 250px;
+    background-color: rgb(255, 255, 255);
+    margin: 25px;
+
+
+}
+
+.info section>img {
+    justify-content: center;
+    height: 250px;
+    border-radius: 50%;
+
+}
+
+
+.info section>img:hover {
+    box-shadow: 0 0 37px rgba(0, 0, 0, 0.342); 
+  }
+
+.info section h2,
+p {
+    text-align: center;
+
+}
+
+.hwork {
+    text-align: center;
+    background-color: rgb(236, 205, 205);
+    margin-top: 60px;
+    width: 100vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+
+.works {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(236, 205, 205);
+}
+
+.works section:hover{
+border-style: outset;
+}
+
+.works section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    align-items: center;
+    height: 250px;
+    flex-basis: 250px;
+    margin-bottom: 60px;
+    justify-content: center;
+
+}
+
+.schedule {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.classbtn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 50px;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+.classbtn button {
+    background-color: rgb(233, 141, 36);
+    cursor: pointer;
+    border-style: groove;
+    background-color: rgb(228, 114, 21);
+    font-size: larger;
+    color: white;
+}
+
+.time {
+    margin: 20px;
+}
+
+.join img {
+    margin-top: 60px;
+}
+
+.jointype {
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: rgb(233, 141, 36);
+    cursor: pointer;
+    border-style: groove;
+    background-color: rgb(228, 114, 21);
+    font-size: larger;
+    color: white;
+    margin-bottom: 70px;
+}
+.btn:hover {
+    border-style: outset;
+  }
+
+.joinpart1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.join1 {
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.join2 {
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.joinpart2 {
+    display: flex;
+
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.join3 {
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.join4 {
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(236, 205, 205);
+    align-items: center;
+
+}
+
+
+.members section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    height: 250px;
+    flex-basis: 350px;
+    margin-bottom: 60px;
+}
+
+.tes1 {
+    display: flex;
+
+}
+
+.members img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.sample {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sample section {
+    padding-top: 60px;
+    padding-bottom: 4px;
+}
+
+.sampleinf {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 50px;
+    align-items: center;
+    padding: 20px;
+}
+
+.bottomhero {
+    background-image: url(images/hero-bottom.jpg);
+    position: relative;
+    height: 22.5em;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(224, 224, 218);
+    flex-wrap: wrap;
+    
+
+}
+
+.footer section {
+    flex-grow: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.footer section a,li {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    list-style: none;
+}
+
+.footer img{
+    height: 22px;
+    margin-right: 10px;
+}
+
+.end img{
+    height: 40px;
+   margin:15px ;
+}
+
+.end{
+    display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+
+
+
+
+
+

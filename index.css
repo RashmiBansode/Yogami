@@ -47,7 +47,7 @@ nav>ul>li a:hover {
 
 .content {
     background-image: url(images/yog.jpg);
-    height: 610px;
+    height: 650px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -85,14 +85,14 @@ nav>ul>li a:hover {
     background-color: rgb(255, 255, 255);
     margin: 25px;
 
-
 }
 
 .info section>img {
+    display: flex;
     justify-content: center;
     height: 250px;
     border-radius: 50%;
-
+position: relative;
 }
 
 
@@ -195,6 +195,7 @@ border-style: outset;
 .btn:hover {
     border-style: outset;
   }
+  
 
 .joinpart1 {
     display: flex;
@@ -270,7 +271,7 @@ border-style: outset;
     background-color: rgb(255, 255, 255);
     padding: 20px;
     margin: 10px;
-    height: 250px;
+    height: 270px;
     flex-basis: 350px;
     margin-bottom: 60px;
 }
@@ -299,6 +300,7 @@ border-style: outset;
 .sample section {
     padding-top: 60px;
     padding-bottom: 4px;
+    
 }
 
 .sampleinf {

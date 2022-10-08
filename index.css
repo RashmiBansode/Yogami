@@ -270,7 +270,7 @@ border-style: outset;
 .members section {
     display: flex;
     flex-direction: column;
-    background-color: rgb(243, 237, 229);
+    background-color: rgb(247, 239, 230);
     padding: 20px;
     margin: 10px;
     height: 300px;

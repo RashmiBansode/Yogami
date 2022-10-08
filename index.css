@@ -92,7 +92,7 @@ nav>ul>li a:hover {
     justify-content: center;
     height: 250px;
     border-radius: 50%;
-position: relative;
+/* position: relative; */
 }
 
 
@@ -137,7 +137,7 @@ border-style: outset;
     flex-basis: 250px;
     margin-bottom: 60px;
     justify-content: center;
-
+    font-family:'Baloo Bhaijaan 2', cursive;
 }
 
 .schedule {
@@ -208,7 +208,7 @@ border-style: outset;
 .join1 {
     background-color: rgb(255, 255, 255);
     width: 450px;
-    height: 290px;
+    height: 320px;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -219,7 +219,7 @@ border-style: outset;
 .join2 {
     background-color: rgb(255, 255, 255);
     width: 450px;
-    height: 290px;
+    height: 320px;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -238,7 +238,7 @@ border-style: outset;
 .join3 {
     background-color: rgb(255, 255, 255);
     width: 450px;
-    height: 290px;
+    height: 320px;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -249,7 +249,7 @@ border-style: outset;
 .join4 {
     background-color: rgb(255, 255, 255);
     width: 450px;
-    height: 290px;
+    height: 320px;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -270,12 +270,13 @@ border-style: outset;
 .members section {
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(243, 237, 229);
     padding: 20px;
     margin: 10px;
-    height: 270px;
+    height: 300px;
     flex-basis: 350px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
 .tes1 {
